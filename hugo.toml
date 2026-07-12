@@ -1,0 +1,70 @@
+baseURL = "https://zhangcongyue0erin.github.io/"
+languageCode = "en-us"
+title = "Congyue(Erin) Zhang"
+theme = "PaperMod"
+
+[pagination]
+pagerSize = 10
+
+[params]
+author = "Congyue Zhang"
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowCodeCopyButtons = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+ShowShareButtons = false
+disableKinds = ["taxonomy"]
+
+[params.profileMode]
+enabled = true
+title = "Congyue Zhang"
+
+subtitle = """
+MSc in Advanced Control and Systems Engineering
+University of Manchester
+
+Building Intelligent Robotic Systems
+through Control, AI and Engineering.
+"""
+
+imageUrl = "images/avatar.jpg"
+imageTitle = "Congyue Zhang"
+
+[[params.profileMode.buttons]]
+name = "Projects"
+url = "/projects"
+
+[[params.profileMode.buttons]]
+name = "Engineering Journal"
+url = "/journal"
+
+[[params.profileMode.buttons]]
+name = "Paper Notes"
+url = "/papers"
+
+[menu]
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 10
+
+[[menu.main]]
+identifier = "journal"
+name = "Engineering Journal"
+url = "/journal/"
+weight = 20
+
+[[menu.main]]
+identifier = "papers"
+name = "Paper Notes"
+url = "/papers/"
+weight = 30
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 40
