@@ -1,0 +1,6 @@
+.profile_inner img {
+    border-radius: 0 !important;
+    width: 260px !important;
+    height: 320px !important;
+    object-fit: cover;
+}

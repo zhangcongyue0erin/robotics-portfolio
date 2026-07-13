@@ -46,6 +46,8 @@ through Control, AI and Engineering.
 
 imageUrl = "images/avatar.jpg"
 imageTitle = "Congyue Zhang"
+imageWidth = 260
+imageHeight = 360
 
 [[params.profileMode.buttons]]
 name = "Projects"
@@ -89,4 +91,10 @@ weight = 40
 identifier = "search"
 name = "Search"
 url = "/search/"
+weight = 50
+
+[[menu.main]]
+identifier = "resume"
+name = "Resume"
+url = "/resume/"
 weight = 50

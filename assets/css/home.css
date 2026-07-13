@@ -1,0 +1,105 @@
+.hero{
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+gap:70px;
+
+padding:80px 20px;
+
+max-width:1000px;
+
+margin:auto;
+
+}
+
+.hero-image img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+.hero-content{
+
+max-width:520px;
+
+}
+
+.hero-content h1{
+
+font-size:48px;
+
+margin-bottom:10px;
+
+}
+
+.hero-content h2{
+
+font-size:26px;
+
+font-weight:500;
+
+color:#666;
+
+margin-bottom:25px;
+
+}
+
+.degree{
+
+font-size:18px;
+
+line-height:1.7;
+
+margin-bottom:30px;
+
+}
+
+.intro{
+
+font-size:18px;
+
+line-height:1.8;
+
+margin-bottom:40px;
+
+}
+
+.hero-buttons{
+
+display:flex;
+
+gap:16px;
+
+flex-wrap:wrap;
+
+}
+
+.hero-buttons a{
+
+padding:10px 22px;
+
+border:1px solid #222;
+
+border-radius:8px;
+
+text-decoration:none;
+
+color:inherit;
+
+transition:.25s;
+
+}
+
+.hero-buttons a:hover{
+
+background:#222;
+
+color:white;
+
+}
