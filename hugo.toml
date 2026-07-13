@@ -15,6 +15,22 @@ ShowBreadCrumbs = true
 ShowPostNavLinks = true
 ShowShareButtons = false
 disableKinds = ["taxonomy"]
+ShowToc = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+displayFullLangName = true
+
+[outputs]
+
+home = ["HTML","RSS","JSON"]
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+threshold = 0.4
+
+[params.assets]
+favicon = "images/favicon.ico"
 
 [params.profileMode]
 enabled = true
@@ -68,3 +84,9 @@ identifier = "about"
 name = "About"
 url = "/about/"
 weight = 40
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 50
